@@ -1,0 +1,24 @@
+# Virtual environments
+.venv/
+.venv1/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Runtime/generated folders
+uploads/
+outputs/
+
+# OS files
+.DS_Store
+Thumbs.db

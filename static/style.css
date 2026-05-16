@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  border-radius: 18px;
+}
+
+.stat-card {
+  min-height: 120px;
+}
+
+.metric-box {
+  background: #f8f9fa;
+  border-radius: 14px;
+  padding: 16px;
+  font-weight: 600;
+}
+
+.metric-box span {
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 6px;
+}
+
+.table td, .table th {
+  white-space: nowrap;
+}
