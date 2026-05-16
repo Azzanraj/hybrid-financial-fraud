@@ -58,7 +58,7 @@ Autoencoder      GAT            LightGBM
           Flask Web Dashboard
 ```
 
-The report describes this as a multi-view framework that combines tabular, relational, and anomaly-based learning, and then fuses the outputs into a unified fraud score. fileciteturn1file2turn1file6
+The report describes this as a multi-view framework that combines tabular, relational, and anomaly-based learning, and then fuses the outputs into a unified fraud score. 
 
 ## Workflow
 
