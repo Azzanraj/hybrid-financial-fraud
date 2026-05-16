@@ -163,7 +163,7 @@ The proposed framework is compared against several existing baselines and hybrid
 
 ## Hardware and Software Requirements
 
-The report lists the following software stack and hardware assumptions:
+The report lists the following software stack:
 
 - Python 3.10
 - PyTorch 2.0.7
@@ -224,7 +224,7 @@ The goal of this major project is to provide a practical fraud detection pipelin
 - **anomaly detection**
 - **score fusion**
 
-so that suspicious transactions can be identified more reliably than with a single-model system. This objective is consistent with the project abstract and report methodology. fileciteturn1file0turn1file2turn1file14
+so that suspicious transactions can be identified more reliably than with a single-model system. This objective is consistent with the project abstract and report methodology. 
 
 ## Authors
 
