@@ -32,7 +32,7 @@ Traditional fraud detectors often rely on a single learning perspective. That is
 - repeated activity across shared entities,
 - or subtle anomalies hidden in high-dimensional features.
 
-This project was built to improve detection robustness by combining behavioral, relational, and anomaly-based signals in one framework. The project report states that the proposed framework achieved strong performance, including **98.94% ROC-AUC**, **90.67% PR-AUC**, **77.11% precision**, **88.00% recall**, and **82.20% F1-score**. fileciteturn1file1turn1file7
+This project was built to improve detection robustness by combining behavioral, relational, and anomaly-based signals in one framework. The project report states that the proposed framework achieved strong performance, including **98.94% ROC-AUC**, **90.67% PR-AUC**, **77.11% precision**, **88.00% recall**, and **82.20% F1-score**.
 
 ## System Architecture
 
@@ -72,7 +72,7 @@ The report describes this as a multi-view framework that combines tabular, relat
 5. Apply the selected threshold to generate the final label.
 6. Display results in a table and allow CSV download.
 
-The project report also describes score allocation and threshold optimization as part of the fusion pipeline. fileciteturn1file2turn1file3
+The project report also describes score allocation and threshold optimization as part of the fusion pipeline. 
 
 ## Technologies Used
 
@@ -121,21 +121,20 @@ The project report also describes score allocation and threshold optimization as
 
 ## Dataset
 
-The project is built around **IEEE-CIS style transaction data**. The report states that the system is intended for offline analysis using publicly available datasets such as the IEEE-CIS Fraud Detection dataset. fileciteturn1file11turn1file14
+The project is built around **IEEE-CIS style transaction data**. The report states that the system is intended for offline analysis using publicly available datasets such as the IEEE-CIS Fraud Detection dataset. 
 
 The project is best used with CSV files that contain the same feature names used during training.
 
 ## Model Components
 
 ### 1. Autoencoder (AE)
-The autoencoder learns normal transaction behavior and detects anomalies from reconstruction error. It is useful for rare and previously unseen patterns. fileciteturn1file0turn1file16
+The autoencoder learns normal transaction behavior and detects anomalies from reconstruction error. It is useful for rare and previously unseen patterns.
 
 ### 2. Graph Attention Network (GAT)
-GAT captures relationships between transactions and shared entities such as card, address, and device features. This helps detect coordinated fraud patterns that are difficult to identify from tabular data alone. fileciteturn1file0turn1file16
+GAT captures relationships between transactions and shared entities such as card, address, and device features. This helps detect coordinated fraud patterns that are difficult to identify from tabular data alone. 
 
 ### 3. LightGBM
-LightGBM handles high-dimensional tabular transaction data and learns complex non-linear interactions efficiently. fileciteturn1file0turn1file16turn1file12
-
+LightGBM handles high-dimensional tabular transaction data and learns complex non-linear interactions efficiently. 
 ## Functional Scope
 
 The project report defines the system requirements as follows:
@@ -146,7 +145,7 @@ The project report defines the system requirements as follows:
 - build a transaction graph,
 - train the autoencoder,
 - train the hybrid model,
-- and evaluate using Precision, Recall, F1-score, and ROC-AUC. fileciteturn1file17
+- and evaluate using Precision, Recall, F1-score, and ROC-AUC. 
 
 ## Evaluation
 
@@ -160,7 +159,7 @@ The report evaluates the system using standard fraud detection metrics, includin
 - Log Loss
 - Balanced Accuracy
 
-The proposed framework is compared against several existing baselines and hybrid methods. The report states that the proposed model outperformed the baselines in the final comparison table. fileciteturn1file1turn1file19
+The proposed framework is compared against several existing baselines and hybrid methods. The report states that the proposed model outperformed the baselines in the final comparison table. 
 
 ## Hardware and Software Requirements
 
@@ -174,13 +173,6 @@ The report lists the following software stack and hardware assumptions:
 - Matplotlib 3.7.1
 - scikit-learn 1.3.0
 - Flask 2.3.2
-
-Hardware assumptions include:
-
-- NVIDIA RTX 3060 GPU
-- 16 GB DDR4 RAM
-- 512 GB SSD
-- Intel Core i7 12th Gen CPU fileciteturn1file6
 
 ## Installation
 
