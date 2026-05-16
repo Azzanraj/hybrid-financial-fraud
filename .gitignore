@@ -18,7 +18,7 @@ __pycache__/
 # Runtime/generated folders
 uploads/
 outputs/
-models/have_up_subset.csv
+
 # OS files
 .DS_Store
 Thumbs.db
